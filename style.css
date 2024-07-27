@@ -179,3 +179,28 @@ td {
     color: var(--Brown800);
     font-weight: 900;
 }
+
+
+@media only screen and (max-width: 750px) {
+    body {
+      background-color: var(--White);
+      margin: auto;
+      padding-bottom: 2rem;
+    }
+
+    main {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    main > img {
+        width: 100% !important;
+        border-radius: 0;
+    }
+
+    .recipe {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+  }
